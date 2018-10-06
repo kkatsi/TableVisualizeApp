@@ -1,9 +1,8 @@
 # Table Visualization Application #
 
 With this application you can create graphs and pies from a table that contains numbers. You can edit the table and add the numbers you want.
-Then there are three options. First: You can draw a graph for each column, Second: You can draw a pie for each column, Third: You can save (locally) 
-the table you created and reload it again whenever you want with php and ajax requests. 
+Then there are three options. First: You can draw a graph for each column, Second: You can draw a pie for each column, Third: You can save the table you created (json files) and reload it again whenever you want with php and ajax requests. 
 
-(You have to download the project locally, or in a server, in order to run it in full scale cause of php and server need)
+(You have to download the project locally and run it with a virtual server that has php activated, or in a real php server, in order to run it in full scale cause of real time requests and the save feature.)
 
-Check some features of the application live [here](https://kkatsi.github.io/TableVisualizeApp/).
+Check the application (except save feature) live [here](https://kkatsi.github.io/TableVisualizeApp/).
