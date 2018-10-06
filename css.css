@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+}
+            
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 100;
+    border-radius: 8px;
+    background-color: mintcream;
+    color: black;
+    padding: 10px 25px;
+    box-shadow: 0 2px 6px #000;
+}
+            
+.slide-down-page {
+    position: absolute;
+    width: 100%;
+    box-sizing: content-box;
+    background-image: url(https://www.aus.edu/sites/default/files/iStock-636332456.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.closeDown {
+    flex: 1;
+    max-height: 20px;
+    align-self: flex-end;
+}
+
+.upcontent {
+    width: 85%;
+    height: 80%;
+    background-color: mintcream;
+    flex: 2;
+    align-self: center;
+    padding: 1%;
+    border-radius: 8px;
+    bottom: 30px;
+    opacity: 0.95;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 6px #000;
+}
+
+footer {
+    flex: 3;
+    max-height: 30px;
+}
+
+.tabNGraphs{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    min-width: 100%;
+}
+
+.UomTable {
+    flex: 1;
+    justify-content: flex-start;
+}
+.graphsDiv { 
+    flex: 2;
+    margin-bottom: 3%;
+    overflow: hidden;
+    align-content: center;
+}
+
+.graphs {
+    display: none;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 20px;
+    align-content: center;
+    height: 100%;
+}
+
+.pies {
+   
+    display: none;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-content: center;
+    height: 100%;
+    color: d
+    
+    
+}
+
+.buttons {
+    display: flex;
+    align-self: center;
+    flex: 2;
+    max-height: 40px;
+    justify-content: space-around;
+    min-width: 50%;
+ 
+}
+
+.graph{
+    justify-content: flex-start
+    flex: 1;
+}
+
+.pie {
+    justify-content: center
+    flex: 2;
+}
+
+.save {
+    justify-content: flex-end
+    flex: 3;
+}
+
+.item {
+    
+
+    width: 50%;
+    height: 50%;
+
+}
+
+.slide-up-page {
+    position: absolute;
+    width: 100%;
+    box-sizing: content-box;
+    background-image: url(down.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.closeUp {
+    flex: 1;
+    max-height: 20px;
+    align-self: flex-end;
+}
+
+.savedHeader {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    align-self: center;
+}
+
+.viewSaved {
+    
+}
+
+.content {
+
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px;
+
+}
+
+
+.flex-item {
+  font-family: 'Roboto Slab', serif;
+  background-color:  #f9f9f9;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  box-shadow: 0 4px 6px #000;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+.title {
+    
+    font-size: 45px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    
+    
+}
+
+
+.maincontent {
+    height: 100%;
+    background-image: url(up.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div .maintitle {
+    
+    background-color: mintcream;
+    border-radius: 8px;
+    max-width: 40%;
+    max-height: 45%;
+    flex: 2;
+    align-self: center;
+    opacity: 0.85;
+    box-shadow: 0 2px 6px #000;
+}
+
+.openUp {
+    align-self: center;
+    flex: 1;
+    max-height: 20px;
+}
+
+.openDown {
+    align-self: center;
+    flex: 3;
+    max-height: 20px;
+}
+
+.maintitle .mainHeader {
+    font-size: 100px;
+    font-weight: 500;
+    font-family: 'Paytone One', sans-serif;
+
+
+}
+
+.maintitle .desc {
+    font-family: 'Raleway', sans-serif;
+    font-size: 27px;
+    bottom: 10px;
+    margin-top: 5%;
+
+}
+
+.newHeader {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+}
